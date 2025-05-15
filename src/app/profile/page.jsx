@@ -1,7 +1,6 @@
 "use client";
 
 import styles from "./Profile.module.css";
-import axios from "axios";
 import { Button, Card, Flex, Skeleton, Typography } from "antd";
 import Image from "next/image";
 import Link from "next/link";
@@ -43,6 +42,9 @@ export default function Profile() {
                             <li>E muito amor 💖</li>
                         </ul>            
           </div>
+          <Link href="/alunos" prefetch>
+          <Button type="primary">Acessar minha API GET via axios</Button>
+          </Link>
         </Flex>
       </Flex>
     </Card>
