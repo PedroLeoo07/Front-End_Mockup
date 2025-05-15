@@ -101,7 +101,7 @@ export default function Alunos() {
 
       {data.loading ? (
         <Image
-          src="/images/loading.gif"
+          src="/image/gifCaracol.gif"
           width={300}
           height={200}
           alt="Loading"
@@ -117,7 +117,7 @@ export default function Alunos() {
               cover={
                 <Image
                   alt={aluno.name_estudante}
-                  src={aluno.photo ? aluno.photo : "/image/220.svg"}
+                  src={aluno.photo ? aluno.photo : "/image/cassio.jpg"}
                   width={220}
                   height={220}
                 />
